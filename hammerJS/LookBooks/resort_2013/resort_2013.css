@@ -1,0 +1,162 @@
+#splendid2013_container{
+	position:relative;
+	width:742px;
+	height:487px;
+	float:right;
+	overflow:hidden;
+	background-color:#fff;
+}
+
+
+#splendid2013_footer{
+	position:absolute;
+	top:454px;
+	left:0;
+	height:33px;
+	width:742px;
+	background-color: #000;
+}
+
+#splendid2013_page0{
+	position:absolute;
+}
+
+#splendid2013_page1,#splendid2013_page2,#splendid2013_page3,#splendid2013_page4,#splendid2013_page5{
+	position:absolute;
+	top:0;
+	left:743px;
+}
+
+#splendid2013_arrowLeft{
+	position:absolute;
+	width:55px;
+	height:129px;
+	top:153px;
+	left:0;
+	cursor:pointer;
+	background-position: 0 -160px;
+	display:none;
+}
+
+#splendid2013_arrowRight{
+	position:absolute;
+	width:55px;
+	height:129px;
+	top:153px;
+	left:687px;
+	cursor:pointer;
+	background-position: 20px -280px;
+	display:none;
+}
+
+#splendid2013_arrowLeft.selected, #splendid2013_arrowRight.selected{
+	display:block;
+}
+
+#splendid2013_social {
+	height:33px;
+	width:260px;
+	float:left;
+	background-position: 0 0;
+}
+
+#splendid2013_pagination{
+	height:33px;
+	width:210px;
+	float:left;
+}
+
+#splendid2013_browse_below{
+	height:33px;
+	width:272px;
+	float:left;
+	background-position: 100px -110px;
+}
+
+#splendid2013_social ul{
+	width:260px;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+#splendid2013_social ul li{
+	height:33px;
+	cursor:pointer;
+	float:left;
+}
+
+li#splendid2013_nav_fb{
+	width:38px;
+}
+
+li#splendid2013_nav_tw{
+	width:39px;
+}
+
+li#splendid2013_nav_pin{
+	width:39px;
+}
+
+#splendid2013_pagination ul{
+	width:260px;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+#splendid2013_pagination ul li{
+	height:33px;
+	cursor:pointer;
+	float:left;
+	width:25px;
+	padding-right:8px;
+}
+
+li#splendid2013_nav_page_0{
+	background-position: 0 -420px;
+}
+
+li#splendid2013_nav_page_1{
+	background-position: 0 -480px;
+}
+
+li#splendid2013_nav_page_2{
+	background-position: 0 -540px;
+}
+
+li#splendid2013_nav_page_3{
+	background-position: 0 -600px;
+}
+
+li#splendid2013_nav_page_4{
+	background-position: 0 -660px;
+}
+
+li#splendid2013_nav_page_5{
+	background-position: 0 -720px;
+}
+
+li#splendid2013_nav_page_0.selected{
+	background-position: -140px -420px;
+}
+
+li#splendid2013_nav_page_1.selected{
+	background-position: -140px -480px;
+}
+
+li#splendid2013_nav_page_2.selected{
+	background-position: -140px -540px;
+}
+
+li#splendid2013_nav_page_3.selected{
+	background-position: -140px -600px;
+}
+
+li#splendid2013_nav_page_4.selected{
+	background-position: -140px -660px;
+}
+
+li#splendid2013_nav_page_5.selected{
+	background-position: -140px -720px;
+}
